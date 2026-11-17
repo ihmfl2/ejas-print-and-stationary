@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: gainsboro;
 }
 
 #gallery{
@@ -12,7 +13,7 @@ body {
     gap: 12px;
 }
 
-article {
+div {
     background-color: azure;
     border: 2px solid black;
     border-radius: 6px;
