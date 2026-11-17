@@ -9,7 +9,12 @@ body {
     width: 700px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-area: auto;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-areas: 
+                        "a1 a2 a2"
+                        "a3 a4 a6"
+                        "a3 a5 a6"
+    ;
     gap: 12px;
 }
 
@@ -25,3 +30,11 @@ image {
     border-radius: 8px;
     height: 320px;
 }
+
+/* di sini buat element div-nya */
+.a1 {grid-area: a1;}
+.a2 {grid-area: a2;}
+.a3 {grid-area: a3;}
+.a4 {grid-area: a4;}
+.a5 {grid-area: a5;}
+.a6 {grid-area: a6;}
