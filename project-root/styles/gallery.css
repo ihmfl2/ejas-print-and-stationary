@@ -1,18 +1,25 @@
 .container {
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
 }
 
 #gallery{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    height: 700px;
+    display: grid;
+    
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+                        "a1 a2 a2"
+                        "a3 a3 a6"
+                        "a4 a5 a6"
+                        "a4 a5 a6"
+    ;
     gap: 12px;
     padding: 0px 12px 0px;
 }
 
 .item {
-    height: 240px;
     background-color: #c0dafb;
     border-radius: 6px;
     padding: 8px;
