@@ -1,26 +1,25 @@
-body {
+.container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: gainsboro;
+    justify-content: center;
 }
 
 #gallery{
-    width: 700px;
+    height: 80vh;   
     display: grid;
+    
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
     grid-template-areas: 
                         "a1 a2 a2"
-                        "a3 a4 a6"
-                        "a3 a5 a6"
+                        "a3 a3 a6"
+                        "a4 a5 a6"
     ;
     gap: 12px;
+    padding: 0px 12px 0px;
 }
 
-div {
-    background-color: azure;
-    border: 2px solid black;
+.item {
+    background-color: #c0dafb;
     border-radius: 6px;
     padding: 8px;
     text-align: center;
@@ -29,6 +28,11 @@ div {
 image {
     border-radius: 8px;
     height: 320px;
+}
+
+h1 {
+    text-align: center;
+    margin: 8px 0px;
 }
 
 /* di sini buat element div-nya */
