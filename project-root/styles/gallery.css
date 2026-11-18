@@ -11,8 +11,7 @@
                         "a1 a2 a3"
                         "a4 a5 a6"
     ;
-    gap: 12px;
-    padding: 0px 12px;
+    gap: 16px;
 }
 
 .item {
@@ -21,6 +20,17 @@
     padding: 8px;
     text-align: center;
     align-content: center;
+    transition: all 0.2s ease;
+}
+
+.item:hover {
+    transform: scale(1.1) translate(0px, -12px);
+    background-color: #7ab2fb;
+}
+
+.item:active {
+    transform: scale(0.9) translate(0px, 32px);
+    background-color: #448ef0;
 }
 
 img {
