@@ -1,3 +1,16 @@
 h1 {
     text-align: center;
+    margin: 0px 32px 0px 32px; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 600px;
 }
