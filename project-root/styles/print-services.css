@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1F5F9;
+    color: #1E293B;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1E3A5F;
+    padding: 16px 24px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Logo */
+.logo {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation Links */
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+/* Hover */
+.nav-menu a:hover {
+    background-color: #2D527D;
+    color: #ffffff;
+}
+
+/* Active Link */
+.nav-menu a.active {
+    background-color: #2D527D;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Button */
+.btn {
+    background-color: #1e3a5f;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #2D527D;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a5f;
+    color: #ffffff;
+    padding: 24px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
