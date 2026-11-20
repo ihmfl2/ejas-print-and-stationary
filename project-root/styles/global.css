@@ -67,11 +67,13 @@ footer {
     margin-top: 40px;
 }
 .site-brand {
-    grid-column: 1;
-    justify-self: start;
-    color: #ffffff;
+   display: flex;
+    align-items: center;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    white-space: nowrap;
+}
+.site-brand img {
+    width: 150px;
+    height: auto;
+    max-width: 150px;
+    display: block;
 }
