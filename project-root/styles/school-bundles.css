@@ -317,3 +317,38 @@
         padding: 20px;
     }
 }
+
+.bundle-button {
+    transition: 0.3s ease;
+}
+
+.bundle-button:hover {
+    background-color: #2D527D;
+    transform: translateY(-3px);
+}
+
+.bundle-card {
+    transition: 0.3s ease;
+}
+
+.bundle-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(30, 58, 95, 0.12);
+}
+
+.category-card {
+    transition: 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(30, 58, 95, 0.08);
+}
+
+.bundle-benefits li {
+    transition: 0.3s ease;
+}
+
+.bundle-benefits li:hover {
+    transform: translateY(-4px);
+}
